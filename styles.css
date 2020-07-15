@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  background-color: #f4ebc1;
+  color: #a50e48
+}
+
+.instruction{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.popup-content{
+  visibility: hidden;
+  background-color: rgb(185, 185, 185);
+  font-weight: bold;
+  color: rgb(34, 30, 30);
+  width: 400px;
+  border: black 1px solid;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  top: 45px;
+  z-index: 1;
+}
+
+.show{
+  visibility: visible;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+#level-title {
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  margin:  5% 0 3%;
+}
+
+.mycontainer {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.button {
+  margin: 25px;
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.6;
+}
+
+.red {
+  background-color: #d92027;
+}
+
+.green {
+  background-color: #086972;
+}
+
+.blue {
+  background-color: #111d5e;
+}
+
+.yellow {
+  background-color: #ffcd3c;
+}
+
+.pressed {
+  box-shadow: 0 0 20px black;
+  background-color: grey;
+}
+
+.mycopyright a{
+  text-decoration: none;
+  color: #a50e48;
+  
+}
